@@ -2,6 +2,14 @@
 
 /* ===== BASIC STYLES AND TYPOGRAPHY ===== */
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 /* Hint: font, line-height, letter-spacing, color, a text-decoration: none, a:hover, * box-sizing: border-box, etc. */
 
 /* ===== LAYOUT STYLES ===== */
